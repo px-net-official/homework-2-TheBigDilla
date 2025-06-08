@@ -31,7 +31,7 @@ public class Person {
 
     }
 
-    //überprüfen ob die eingegebenen Noten zwischen 1-5 liegen
+    //Ueberpruefen ob die eingegebenen Noten zwischen 1-5 liegen
     public void setGrades(int[] gradesArray) {
         List<Integer> grades = new ArrayList<>();
 
