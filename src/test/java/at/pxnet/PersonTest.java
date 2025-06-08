@@ -89,6 +89,6 @@ public class PersonTest {
 
         assertEquals(1, constructors.size());
 
-        return constructors.getFirst();
+        return constructors.get(0);
     }
 }
