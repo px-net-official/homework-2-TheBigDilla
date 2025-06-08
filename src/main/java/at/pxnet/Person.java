@@ -45,7 +45,7 @@ public class Person {
     }
 
     public List<Integer> getGrades() {
-        return grades;
+        return new ArrayList<>(grades);
     }
 
     public void setAge(int age) {
