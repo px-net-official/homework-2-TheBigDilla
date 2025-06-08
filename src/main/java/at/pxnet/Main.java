@@ -1,5 +1,8 @@
 package at.pxnet;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
@@ -39,5 +42,10 @@ public class Main {
         //
         // An additional method "getAverageAge" does not take any parameters and returns the average age of the
         // students (double). If no students are enlisted in the university, "0" is returned.
+
+        var grades1 = new int[] {1,2,3,4};
+        Person person1 = new Person("123123", "Max Mustermann", 23, grades1);
+
+        Grading.isFailing(person1);
     }
 }
